@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F8D69431D213FFA003C9F6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8D69421D213FFA003C9F6B /* main.m */; };
+		9F8D69461D213FFA003C9F6B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8D69451D213FFA003C9F6B /* AppDelegate.m */; };
+		9F8D69491D213FFA003C9F6B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8D69481D213FFA003C9F6B /* ViewController.m */; };
+		9F8D694C1D213FFA003C9F6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F8D694A1D213FFA003C9F6B /* Main.storyboard */; };
+		9F8D694E1D213FFA003C9F6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F8D694D1D213FFA003C9F6B /* Assets.xcassets */; };
+		9F8D69511D213FFA003C9F6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F8D694F1D213FFA003C9F6B /* LaunchScreen.storyboard */; };
+		9F8D695D1D21404B003C9F6B /* BFDudu.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 9F8D695C1D21404B003C9F6B /* BFDudu.podspec */; };
+		9F8D697B1D226FF7003C9F6B /* BFDudu.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8D697A1D226FF7003C9F6B /* BFDudu.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9F8D693E1D213FFA003C9F6B /* Dudua.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dudua.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F8D69421D213FFA003C9F6B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F8D69441D213FFA003C9F6B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9F8D69451D213FFA003C9F6B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9F8D69471D213FFA003C9F6B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9F8D69481D213FFA003C9F6B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9F8D694B1D213FFA003C9F6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F8D694D1D213FFA003C9F6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F8D69501D213FFA003C9F6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F8D69521D213FFA003C9F6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F8D695C1D21404B003C9F6B /* BFDudu.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BFDudu.podspec; sourceTree = "<group>"; };
+		9F8D69791D226FF7003C9F6B /* BFDudu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFDudu.h; sourceTree = "<group>"; };
+		9F8D697A1D226FF7003C9F6B /* BFDudu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFDudu.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F8D693B1D213FFA003C9F6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F8D69351D213FFA003C9F6B = {
+			isa = PBXGroup;
+			children = (
+				9F8D69401D213FFA003C9F6B /* Dudua */,
+				9F8D693F1D213FFA003C9F6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F8D693F1D213FFA003C9F6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F8D693E1D213FFA003C9F6B /* Dudua.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F8D69401D213FFA003C9F6B /* Dudua */ = {
+			isa = PBXGroup;
+			children = (
+				9F8D69781D226FF7003C9F6B /* BFDudu */,
+				9F8D69441D213FFA003C9F6B /* AppDelegate.h */,
+				9F8D69451D213FFA003C9F6B /* AppDelegate.m */,
+				9F8D695C1D21404B003C9F6B /* BFDudu.podspec */,
+				9F8D69471D213FFA003C9F6B /* ViewController.h */,
+				9F8D69481D213FFA003C9F6B /* ViewController.m */,
+				9F8D694A1D213FFA003C9F6B /* Main.storyboard */,
+				9F8D694D1D213FFA003C9F6B /* Assets.xcassets */,
+				9F8D694F1D213FFA003C9F6B /* LaunchScreen.storyboard */,
+				9F8D69521D213FFA003C9F6B /* Info.plist */,
+				9F8D69411D213FFA003C9F6B /* Supporting Files */,
+			);
+			path = Dudua;
+			sourceTree = "<group>";
+		};
+		9F8D69411D213FFA003C9F6B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F8D69421D213FFA003C9F6B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9F8D69781D226FF7003C9F6B /* BFDudu */ = {
+			isa = PBXGroup;
+			children = (
+				9F8D69791D226FF7003C9F6B /* BFDudu.h */,
+				9F8D697A1D226FF7003C9F6B /* BFDudu.m */,
+			);
+			path = BFDudu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F8D693D1D213FFA003C9F6B /* Dudua */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F8D69551D213FFA003C9F6B /* Build configuration list for PBXNativeTarget "Dudua" */;
+			buildPhases = (
+				9F8D693A1D213FFA003C9F6B /* Sources */,
+				9F8D693B1D213FFA003C9F6B /* Frameworks */,
+				9F8D693C1D213FFA003C9F6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dudua;
+			productName = Dudua;
+			productReference = 9F8D693E1D213FFA003C9F6B /* Dudua.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F8D69361D213FFA003C9F6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = dudua;
+				TargetAttributes = {
+					9F8D693D1D213FFA003C9F6B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 9F8D69391D213FFA003C9F6B /* Build configuration list for PBXProject "Dudua" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F8D69351D213FFA003C9F6B;
+			productRefGroup = 9F8D693F1D213FFA003C9F6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F8D693D1D213FFA003C9F6B /* Dudua */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F8D693C1D213FFA003C9F6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F8D695D1D21404B003C9F6B /* BFDudu.podspec in Resources */,
+				9F8D69511D213FFA003C9F6B /* LaunchScreen.storyboard in Resources */,
+				9F8D694E1D213FFA003C9F6B /* Assets.xcassets in Resources */,
+				9F8D694C1D213FFA003C9F6B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F8D693A1D213FFA003C9F6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F8D69491D213FFA003C9F6B /* ViewController.m in Sources */,
+				9F8D697B1D226FF7003C9F6B /* BFDudu.m in Sources */,
+				9F8D69461D213FFA003C9F6B /* AppDelegate.m in Sources */,
+				9F8D69431D213FFA003C9F6B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9F8D694A1D213FFA003C9F6B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F8D694B1D213FFA003C9F6B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F8D694F1D213FFA003C9F6B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F8D69501D213FFA003C9F6B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F8D69531D213FFA003C9F6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9F8D69541D213FFA003C9F6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F8D69561D213FFA003C9F6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Dudua/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dudua.Dudua;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9F8D69571D213FFA003C9F6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Dudua/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dudua.Dudua;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F8D69391D213FFA003C9F6B /* Build configuration list for PBXProject "Dudua" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F8D69531D213FFA003C9F6B /* Debug */,
+				9F8D69541D213FFA003C9F6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F8D69551D213FFA003C9F6B /* Build configuration list for PBXNativeTarget "Dudua" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F8D69561D213FFA003C9F6B /* Debug */,
+				9F8D69571D213FFA003C9F6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F8D69361D213FFA003C9F6B /* Project object */;
+}
